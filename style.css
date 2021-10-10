@@ -1,4 +1,20 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;font-family:arial;color:white}
+h1{color:grey;font-family:verdana}
+.maindiv {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    width: 400px;
+    margin: 0 auto;
+}
 
-
+.result {
+	color:green;
+}
+.deposit {
+	color:black;
+}
+.negative {
+	color:red;
+}
