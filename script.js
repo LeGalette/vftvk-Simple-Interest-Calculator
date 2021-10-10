@@ -14,6 +14,8 @@ function compute()
     document.getElementById("result").innerHTML = 
     "<br><br>If you deposit:<font class='deposit'>"+principal+"</font><br>With a rate of:<font class='result'>"+rate+"%</font>,<br>Your interest will be:<font class='result'>"+interest+"</font>,<br>And your last year will be:<font class='result'>"+finalYear+"</font>";
     } else{
+        alert('Enter a positive number')
+        document.getElementById("principal").focus()
         document.getElementById("result").innerHTML = "<br><font class='negative'>please enter a positive number</br>"
     }
     
